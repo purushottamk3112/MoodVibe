@@ -16,37 +16,7 @@ A full-stack web application that provides personalized music recommendations ba
 4. Add environment variable:
    - `VITE_API_URL`: Your backend Vercel URL (e.g., `https://your-backend.vercel.app`)
 
-### Backend Deployment
-1. Deploy the `server` folder as a separate Vercel project
-2. Add the following environment variables:
-   - `NODE_ENV=production`
-   - `FRONTEND_URL`: Your frontend Vercel URL (e.g., `https://your-frontend.vercel.app`)
-   - `DATABASE_URL`: Your Neon database connection string
-   - `JWT_SECRET`: A secure random string
-   - `GOOGLE_CLIENT_ID`: Your Google OAuth client ID
-   - `GOOGLE_CLIENT_SECRET`: Your Google OAuth client secret
-   - `SPOTIFY_CLIENT_ID=64fcffb4a80c42ec8b9699c79b300508`
-   - `SPOTIFY_CLIENT_SECRET=b2017354678e420297731092b1e11927`
-   - `GEMINI_API_KEY=AIzaSyB5Gd4X_RtIRPh0buXQODuKYc3RQxYgLvM`
 
-### Environment Configuration Files
-
-#### Frontend (.env in client folder):
-```
-VITE_API_URL=https://your-backend.vercel.app
-```
-
-#### Backend (.env in server folder):
-```
-NODE_ENV=production
-FRONTEND_URL=https://your-frontend.vercel.app
-DATABASE_URL=your_neon_database_connection_string
-JWT_SECRET=your-super-secret-jwt-key
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-SPOTIFY_CLIENT_ID=64fcffb4a80c42ec8b9699c79b300508
-SPOTIFY_CLIENT_SECRET=b2017354678e420297731092b1e11927
-GEMINI_API_KEY=AIzaSyB5Gd4X_RtIRPh0buXQODuKYc3RQxYgLvM
 ```
 
 ## 🛠 Technology Stack
