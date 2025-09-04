@@ -2,19 +2,7 @@
 
 A full-stack web application that provides personalized music recommendations based on user mood input using AI-powered analysis.
 
-## 🚀 Deployment on Vercel
 
-### Prerequisites
-1. Two separate Vercel projects (one for frontend, one for backend)
-2. Environment variables configured
-3. Database setup (Neon PostgreSQL)
-
-### Frontend Deployment
-1. Deploy the `client` folder as a separate Vercel project
-2. Set build command: `npm run build`
-3. Set output directory: `dist`
-4. Add environment variable:
-   - `VITE_API_URL`: Your backend Vercel URL (e.g., `https://your-backend.vercel.app`)
 
 
 ```
